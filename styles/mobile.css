@@ -56,27 +56,27 @@ color: #9490FF;
 color: #F5F5FF;
 }
 
-.skills-container{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-padding: 2rem;
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
 }
-.skill{
-padding-right: 4rem;
-width: 68.08px;
-line-height: 2rem;
+.skill {
+  padding-right: 4rem;
+  width: 68.08px;
+  line-height: 2rem;
 }
-ul li{
-text-decoration: none;
-list-style: none;
-margin-left: -2.5rem;
+ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -2.5rem;
 }
-.social-container{
-display: flex;
-flex-direction: row;
-justify-content: center;
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.social-icon{
-padding: 8px;
+.social-icon {
+  padding: 8px;
 }
