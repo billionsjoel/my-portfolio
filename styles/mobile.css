@@ -29,11 +29,11 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  padding: 1rem 1rem 0px 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .description {
-  padding: 2rem 2rem 0rem 2rem;
+  padding: 2rem 2rem 0 2rem;
   color: #c8c8d4;
   font-style: normal;
   font-weight: normal;
@@ -44,7 +44,7 @@
 .devider {
   border: 1px solid #646369;
   width: 327px;
-  left: 0px;
+  left: 0;
   top: 33px;
   flex: none;
   order: 1;
@@ -53,11 +53,11 @@
 }
 
 .skill-title {
-color: #9490FF;
+  color: #9490ff;
 }
 
 .skill--info {
-color: #f5f5ff;
+  color: #f5f5ff;
 }
 
 .skills-container {
@@ -66,11 +66,13 @@ color: #f5f5ff;
   flex-wrap: wrap;
   padding: 2rem;
 }
+
 .skill {
   padding-right: 4rem;
   width: 68.08px;
   line-height: 2rem;
 }
+
 ul li {
   text-decoration: none;
   list-style: none;
