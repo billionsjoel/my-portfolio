@@ -6,16 +6,18 @@
   align-items: center;
   margin: 25px 25px;
 }
+
 .bg-svg {
   position: absolute;
   left: 0;
   top: 0.5rem;
 }
 
-.logo a{
-color: #fff;
-text-decoration: none;
+.logo a {
+  color: #fff;
+  text-decoration: none;
 }
+
 .hero-section-container {
   color: #fff;
   text-align: center;
@@ -29,7 +31,6 @@ text-decoration: none;
   line-height: 72px;
   text-align: center;
   letter-spacing: 0.37px;
-  padding-top: 1rem 1rem 0 1rem;
 }
 
 .sub-title {
@@ -38,14 +39,13 @@ text-decoration: none;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-margin-top: -2rem;
+  margin-top: -2rem;
 }
 
 .description {
   padding: 2rem 2rem 0 2rem;
   color: #c8c8d4;
   font-style: normal;
-  font-weight: 400px;
   font-size: 20px;
   line-height: 28px;
 }
@@ -87,9 +87,9 @@ margin-top: -2rem;
 }
 
 .skills-bg-svg {
-position: absolute;
-right: 0;
-top: 555px;
+  position: absolute;
+  right: 0;
+  top: 555px;
 }
 
 ul li {
@@ -98,7 +98,7 @@ ul li {
   margin-left: -2.5rem;
 }
 
-.social-container ul{
+.social-container ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
