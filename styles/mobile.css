@@ -1,59 +1,63 @@
-.nav-container{
-color: #fff;
-letter-spacing: 0.03em;
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 10px 12px;
+.nav-container {
+  color: #fff;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 12px;
 }
 
-.hero-section-container{
-color: #fff;
-text-align: center;
+.hero-section-container {
+  color: #fff;
+  text-align: center;
 }
-.title{
-color: #7D73FC;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 72px;
-text-align: center;
-letter-spacing: 0.37px;
-padding-top: 1rem;
 
+.title {
+  color: #7d73fc;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.37px;
+  padding-top: 1rem;
 }
-.sub-title{
-color: #EDECFF;
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 44px;
-padding: 1rem 1rem 0px 1rem;
 
+.sub-title {
+  color: #edecff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 1rem 1rem 0px 1rem;
 }
+
 .description {
-padding: 2rem 2rem 0rem 2rem;
-color: #C8C8D4;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 28px;
+  padding: 2rem 2rem 0rem 2rem;
+  color: #c8c8d4;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
 }
-.devider{
-border: 1px solid #646369;
-width: 327px;
-left: 0px;
-top: 33px;
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 24px auto;
+
+.devider {
+  border: 1px solid #646369;
+  width: 327px;
+  left: 0px;
+  top: 33px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px auto;
 }
-.skill-title{
+
+.skill-title {
 color: #9490FF;
 }
-.skill--info{
-color: #F5F5FF;
+
+.skill--info {
+color: #f5f5ff;
 }
 
 .skills-container {
@@ -72,11 +76,13 @@ ul li {
   list-style: none;
   margin-left: -2.5rem;
 }
+
 .social-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .social-icon {
   padding: 8px;
 }
