@@ -197,7 +197,7 @@ ul li {
   font-size: small;
   letter-spacing: 3%;
   border: 0;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .card-btn:hover {
@@ -207,26 +207,26 @@ ul li {
 
 .card-bg-img-1 {
   position: absolute;
-  top: 1490.71px;
-  z-index: -1000;
+  top: 1590.71px;
+  z-index: -1;
 }
 
 .card-bg-img-2 {
   position: absolute;
-  top: 2237.23px;
+  top: 2337.23px;
   right: 0;
-  z-index: -1000;
+  z-index: -1;
 }
 
 .card-bg-img-3 {
   position: absolute;
-  top: 3000px;
-  z-index: -1000;
+  top: 3090px;
+  z-index: -1;
 }
 
 .card-bg-img-4 {
   position: absolute;
-  top: 3683px;
+  top: 3820px;
   right: 0;
-  z-index: -1000;
+  z-index: -1;
 }
