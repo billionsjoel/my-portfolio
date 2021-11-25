@@ -125,6 +125,16 @@ ul li {
 
 /* STYLING PROJECTS SECTION */
 
+.projects-container {
+  display: grid;
+  gap: auto;
+}
+
+.project-card {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
 .projects-heading {
   color: #9490ff;
   text-align: left;
@@ -174,40 +184,53 @@ text-align: center;
 margin-left: 1rem;
 }
 
-.card-btn {
-  background: #7d73fc;
+button {
+  background-color: #7d73fc;
   width: 89px;
   height: 48px;
   margin: -24px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #edecff;
+  font-size: small;
+  letter-spacing: 3%;
+  border: 0;
+  z-index: 1000;
 }
 
-.btn-text {
-  color: #edecff;
-  letter-spacing: 3%;
-  font-size: small;
+button:hover {
+  background-color: #d5d3ee !important;
+  color: #fff;
+}
+
+a {
+color: #edecff !important;
+text-decoration: none;
 }
 
 .card-bg-img-1 {
   position: absolute;
   top: 1490.71px;
+  z-index: -1000;
 }
 
 .card-bg-img-2 {
   position: absolute;
   top: 2237.23px;
   right: 0rem;
+  z-index: -1000;
 }
 
 .card-bg-img-3 {
   position: absolute;
   top: 3000px;
+  z-index: -1000;
 }
 
 .card-bg-img-4 {
   position: absolute;
   top: 3683px;
   right: 0;
+  z-index: -1000;
 }
