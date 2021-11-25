@@ -13,6 +13,11 @@
   top: 0.5rem;
 }
 
+a {
+  color: #edecff !important;
+  text-decoration: none;
+}
+
 .logo a {
   color: #fff;
   text-decoration: none;
@@ -119,20 +124,14 @@ ul li {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #A2A3AE;
-  margin: 0px 12px;
+  color: #a2a3ae;
+  margin: 0 12px;
 }
 
 /* STYLING PROJECTS SECTION */
 
 .projects-container {
   display: grid;
-  gap: auto;
-}
-
-.project-card {
-  grid-column-start: 1;
-  grid-column-end: 5;
 }
 
 .projects-heading {
@@ -147,16 +146,18 @@ ul li {
   display: flex;
   flex-direction: column;
   margin-top: 48px;
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 
 .card-img {
-text-align: center;
+  text-align: center;
 }
 
 .card-title {
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: -24px 24px;
 }
 
@@ -180,8 +181,8 @@ text-align: center;
   justify-content: space-evenly;
 }
 
-.skill-divider{
-margin-left: 1rem;
+.skill-divider {
+  margin-left: 1rem;
 }
 
 button {
@@ -204,11 +205,6 @@ button:hover {
   color: #fff;
 }
 
-a {
-color: #edecff !important;
-text-decoration: none;
-}
-
 .card-bg-img-1 {
   position: absolute;
   top: 1490.71px;
@@ -225,7 +221,7 @@ text-decoration: none;
 .card-bg-img-3 {
   position: absolute;
   top: 3000px;
-  z-index: -1000;
+  z-index: -1000px;
 }
 
 .card-bg-img-4 {
