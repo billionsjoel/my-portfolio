@@ -200,9 +200,17 @@ ul li {
   z-index: 1;
 }
 
-.card-btn:hover {
-  background-color: #d5d3ee !important;
-  color: #fff;
+a.card-btn:hover {
+  background-color: #7d73fc;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+a.card-btn:active {
+  background-color: #5e42d7;
+}
+
+a.card-btn:disabled {
+  background-color: #2A2B33;
 }
 
 .card-bg-img-1 {
@@ -229,4 +237,98 @@ ul li {
   top: 3820px;
   right: 0;
   z-index: -1;
+}
+
+/* Styling the About Section */
+
+.about {
+ width: 100%;
+}
+
+.about-container {
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.16);
+  margin: 51px 24px;
+  border: 1px solid #fff;
+}
+
+.about-title {
+  font-size: 30px;
+  line-height: 32px;
+  margin: 24px 12px;
+  color: #fff;
+}
+
+.about-img > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.about-text {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.about-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-icon {
+  padding: 2px 2px 0 10px;
+}
+
+.about-btn {
+ background: #7D73FC;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  width: auto;
+  height: 48px;
+  margin-top: 2rem;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: smaller;
+}
+
+.about-skills {
+  font-size: 15px !important;
+  margin-left: -24px;
+}
+
+.about-skills > ul > li :first-child {
+padding-right: 4rem;
+}
+
+a.about-btn:hover {
+  background-color: #7d73fc;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+a.about-btn:active {
+  background-color: #5e42d7;
+}
+
+a.about-btn:disabled {
+  background-color: #2A2B33;
+}
+
+.about-bg-img-1 {
+  position: absolute;
+  top: 4100px;
+  z-index: -1;
+  filter: blur(40px);
+  left: -4rem;
+}
+
+.about-bg-img-2 {
+  position: absolute;
+  top: 4700px;
+  z-index: -1;
+  filter: blur(60px);
 }
