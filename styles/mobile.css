@@ -202,7 +202,7 @@ ul li {
 
 a.card-btn:hover {
   background-color: #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 a.card-btn:active {
@@ -210,7 +210,7 @@ a.card-btn:active {
 }
 
 a.card-btn:disabled {
-  background-color: #2A2B33;
+  background-color: #2a2b33;
 }
 
 .card-bg-img-1 {
@@ -242,7 +242,7 @@ a.card-btn:disabled {
 /* Styling the About Section */
 
 .about {
- width: 100%;
+  width: 100%;
 }
 
 .about-container {
@@ -284,8 +284,8 @@ a.card-btn:disabled {
 }
 
 .about-btn {
- background: #7D73FC;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   width: auto;
   height: 48px;
   margin-top: 2rem;
@@ -302,12 +302,16 @@ a.card-btn:disabled {
 }
 
 .about-skills > ul > li :first-child {
-padding-right: 4rem;
+  padding-right: 4rem;
+}
+
+.ml {
+  padding-right: 1rem;
 }
 
 a.about-btn:hover {
   background-color: #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 a.about-btn:active {
@@ -315,7 +319,7 @@ a.about-btn:active {
 }
 
 a.about-btn:disabled {
-  background-color: #2A2B33;
+  background-color: #2a2b33;
 }
 
 .about-bg-img-1 {
