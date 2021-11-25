@@ -1,12 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portfolio Website
+# My Projects Section
 
-> A website that shows my expertise, experience and skills.
+> A section that shows my projects, technologies and links to the project.
 
-![screenshot](./app_screenshot.png)
-
-No features, just a simple project to show my skillsket.
+![screenshot](./projects-section.png)
 
 ## Built With
 
