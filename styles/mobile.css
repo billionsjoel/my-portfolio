@@ -157,7 +157,7 @@ ul li {
 .card-title {
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
   margin: -24px 24px;
 }
 
@@ -185,7 +185,7 @@ ul li {
   margin-left: 1rem;
 }
 
-button {
+.card-btn {
   background-color: #7d73fc;
   width: 89px;
   height: 48px;
@@ -200,7 +200,7 @@ button {
   z-index: 1000;
 }
 
-button:hover {
+.card-btn:hover {
   background-color: #d5d3ee !important;
   color: #fff;
 }
@@ -214,14 +214,14 @@ button:hover {
 .card-bg-img-2 {
   position: absolute;
   top: 2237.23px;
-  right: 0rem;
+  right: 0;
   z-index: -1000;
 }
 
 .card-bg-img-3 {
   position: absolute;
   top: 3000px;
-  z-index: -1000px;
+  z-index: -1000;
 }
 
 .card-bg-img-4 {
