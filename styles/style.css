@@ -7,3 +7,7 @@ body {
   height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
+
+.header{
+position: relative;
+}
