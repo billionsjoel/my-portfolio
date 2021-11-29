@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 18px;
+  background-color: #191765;
+  height: 93vh;
+}
+
+nav {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav a {
+  color: #fff;
+  margin-top: 10px;
+  text-decoration: none;
+  float: left;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.ham {
+  color: #fff;
+  margin-top: -10px;
+  float: right;
+}
