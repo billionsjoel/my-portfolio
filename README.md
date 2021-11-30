@@ -4,7 +4,7 @@
 
 > A section that shows my projects, technologies and links to the project.
 
-![screenshot](./projects-section.png)
+![screenshot](./Contact-form-screenshot.png)
 
 ## Built With
 
