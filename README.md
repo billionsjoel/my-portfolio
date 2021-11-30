@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Projects Section
+# My Contact form Section
 
 > A section that shows my projects, technologies and links to the project.
 
