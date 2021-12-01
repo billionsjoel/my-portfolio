@@ -1,13 +1,12 @@
-@media only screen and (min-width:992px){
-
+@media only screen and (min-width: 992px) {
   .container {
     max-width: 1156px;
     margin: auto;
   }
 
-/*-----------------------
+  /* -----------------------
     header styles
-  ------------------------- */
+    ------------------------- */
 
   .mobile-menu-icon {
     display: none;
@@ -32,17 +31,18 @@
   .devider {
     width: 1156px;
     margin-top: 66px;
-}
+  }
 
   .desktop-devider {
     display: block;
     max-width: 1156px;
   }
 
-  .down-icon-top{
+  .down-icon-top {
     display: block;
   }
-  .skills-container{
+
+  .skills-container {
     display: flex;
   }
 
@@ -59,7 +59,7 @@
     display: grid;
   }
 
-  .skill--info ul li{
+  .skill--info ul li {
     font-size: 14.6667px;
     padding: 0;
   }
@@ -68,7 +68,7 @@
     font-size: 18px;
     margin-bottom: 24px;
     margin-top: 24px;
- }
+  }
 
   .socials {
     display: flex;
@@ -78,7 +78,7 @@
     align-items: center;
   }
 
-/*-----------------------
+  /* -----------------------
     Project section styles
   ------------------------- */
 
@@ -97,19 +97,18 @@
   .card-img img {
     width: 684px;
     height: 448px;
-
-}
+  }
 
   .card-info {
-  width: auto;
-  margin: 24px 0 -24px 24px;
+    width: auto;
+    margin: 24px 0 -24px 24px;
   }
 
   .card-info p {
     width: 448px;
   }
 
-  .desktop-card-btn{
+  .desktop-card-btn {
     margin-left: 24px;
   }
 
@@ -133,7 +132,7 @@
     padding: 0 24px 0 24px !important;
   }
 
-/*-----------------------
+  /* -----------------------
     Contact section styles
   ------------------------- */
 
@@ -152,7 +151,7 @@
     margin-top: -1rem;
   }
 
-  .bottom-border{
+  .bottom-border {
     display: none;
   }
 
@@ -162,8 +161,7 @@
     max-width: 100%;
   }
 
-
-  /*-----------------------
+  /* -----------------------
     Desktop background svgs
   ------------------------- */
 
@@ -189,7 +187,7 @@
     top: 546px;
   }
 
-/* ----------------------------
+  /* ----------------------------
     Turn display off for mobile
   ------------------------------- */
 
@@ -200,7 +198,7 @@
     display: none;
   }
 
-/* ----------------------------
+  /* ----------------------------
     Turn display on for desktop
   ------------------------------- */
 
@@ -234,5 +232,4 @@
     right: 0;
     top: 3100px;
   }
-
 }

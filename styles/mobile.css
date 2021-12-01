@@ -23,6 +23,7 @@
   position: absolute;
   left: 0;
   top: 0.5rem;
+  display: block;
 }
 
 a {
@@ -86,7 +87,7 @@ a {
   padding: 2rem;
 }
 
-.skills{
+.skills {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -157,7 +158,7 @@ ul li {
   display: none;
 }
 
-.down-text {
+.down-text h5 {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
@@ -445,10 +446,6 @@ textarea {
   height: 5px;
   border-radius: 10px;
   text-align: center;
-}
-
-.bg-svg {
-  display: block;
 }
 
 .bg-svg-desktop {
