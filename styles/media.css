@@ -1,0 +1,235 @@
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 1156px;
+    margin: auto;
+  }
+
+  /* -----------------------
+    header styles
+    ------------------------- */
+
+  .mobile-menu-icon {
+    display: none;
+  }
+
+  .desktop-menu,
+  ul {
+    display: flex;
+  }
+
+  ul li {
+    padding: 32px;
+  }
+
+  .description,
+  .devider,
+  .skills-container {
+    max-width: 448px;
+    margin: auto;
+  }
+
+  .devider {
+    width: 1156px;
+    margin-top: 66px;
+  }
+
+  .desktop-devider {
+    display: block;
+    max-width: 1156px;
+  }
+
+  .down-icon-top {
+    display: block;
+  }
+
+  .skills-container {
+    display: flex;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skill {
+    margin-right: 40px;
+  }
+
+  .skill--info ul {
+    display: grid;
+  }
+
+  .skill--info ul li {
+    font-size: 14.6667px;
+    padding: 0;
+  }
+
+  .skill-title {
+    font-size: 18px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+
+  .socials {
+    display: flex;
+    margin-top: 106px;
+    margin-bottom: 238px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* -----------------------
+    Project section styles
+  ------------------------- */
+
+  .projects-heading {
+    margin-left: 0;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 96px;
+  }
+
+  .card-img img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .card-info {
+    width: auto;
+    margin: 24px 0 -24px 24px;
+  }
+
+  .card-info p {
+    width: 448px;
+  }
+
+  .desktop-card-btn {
+    margin-left: 24px;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .about-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 78px;
+  }
+
+  .card-skills-list ul {
+    display: flex;
+    justify-content: start;
+  }
+
+  .about-btns a {
+    padding: 0 24px 0 24px !important;
+  }
+
+  /* -----------------------
+    Contact section styles
+  ------------------------- */
+
+  .contact-us {
+    max-width: 684px;
+    margin: 228px auto;
+  }
+
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-container {
+    margin-top: -1rem;
+  }
+
+  .bottom-border {
+    display: none;
+  }
+
+  .footer-devider {
+    position: absolute;
+    left: 0;
+    max-width: 100%;
+  }
+
+  /* -----------------------
+    Desktop background svgs
+  ------------------------- */
+
+  .bg-svg {
+    display: none;
+  }
+
+  .bg-svg-desktop {
+    display: block;
+    position: absolute;
+    left: 69px;
+    top: 237px;
+  }
+
+  .skills-bg-svg {
+    display: none;
+  }
+
+  .bg-svg-desktop-right {
+    display: block;
+    position: absolute;
+    left: 1543px;
+    top: 546px;
+  }
+
+  /* ----------------------------
+    Turn display off for mobile
+  ------------------------------- */
+
+  .card-bg-img-1,
+  .card-bg-img-2,
+  .card-bg-img-3,
+  .card-bg-img-4 {
+    display: none;
+  }
+
+  /* ----------------------------
+    Turn display on for desktop
+  ------------------------------- */
+
+  .card-bg-img--1,
+  .card-bg-img--2,
+  .card-bg-img--3,
+  .card-bg-img--4 {
+    display: block;
+  }
+
+  .card-bg-img--1 {
+    position: absolute;
+    left: -132px;
+    top: 1479.12px;
+  }
+
+  .card-bg-img--2 {
+    position: absolute;
+    right: 0;
+    top: 2257.74px;
+  }
+
+  .card-bg-img--3 {
+    position: absolute;
+    left: -41px;
+    top: 2848px;
+  }
+
+  .card-bg-img--4 {
+    position: absolute;
+    right: 0;
+    top: 3100px;
+  }
+}
