@@ -15,6 +15,10 @@
   margin: 25px 25px;
 }
 
+.desktop-menu {
+  display: none;
+}
+
 .bg-svg {
   position: absolute;
   left: 0;
@@ -82,6 +86,11 @@ a {
   padding: 2rem;
 }
 
+.skills{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .skill {
   padding-right: 4rem;
   width: 70px;
@@ -100,9 +109,21 @@ a {
 }
 
 .skills-bg-svg {
+  display: block;
   position: absolute;
   right: 0;
   top: 555px;
+}
+
+.bg-svg-desktop-right {
+  display: none;
+}
+
+.card-bg-img--1,
+.card-bg-img--2,
+.card-bg-img--3,
+.card-bg-img--4 {
+  display: none;
 }
 
 ul li {
@@ -126,6 +147,14 @@ ul li {
   color: #fff;
   justify-content: center;
   align-items: center;
+}
+
+.down-icon-top {
+  display: none;
+}
+
+.desktop-devider {
+  display: none;
 }
 
 .down-text {
@@ -382,8 +411,9 @@ textarea {
 
 .contact-btn {
   background-color: #7d73fc;
-  width: 89px;
+  width: 160px;
   height: 48px;
+  padding: 12px;
   margin: 40px auto;
   display: flex;
   justify-content: center;
@@ -415,4 +445,12 @@ textarea {
   height: 5px;
   border-radius: 10px;
   text-align: center;
+}
+
+.bg-svg {
+  display: block;
+}
+
+.bg-svg-desktop {
+  display: none;
 }

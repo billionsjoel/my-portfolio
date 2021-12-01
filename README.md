@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Contact form Section
+# My Portifolio Project
 
-> A section that shows my projects, technologies and links to the project.
+> A project that shows my portfolio, technologies and links to the projects i have
+designed or worked on.
 
-![screenshot](./Contact-form-screenshot.png)
+![screenshot](./full-app-screenshot.png)
 
 ## Built With
 
@@ -17,7 +18,7 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- A browser
+- A modern upto-date browser
 - Text Editor or IDE
 
 ### Setup
@@ -28,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
  - run git clone (link)
 
 ### Usage
-- double click on the html file to open in browser.
+- double click on the html index file to open in browser.
 
 ## Authors
 
