@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portifolio Project
+# Animation Feature
 
 > A project that shows my portfolio, technologies and links to the projects i have
 designed or worked on.
