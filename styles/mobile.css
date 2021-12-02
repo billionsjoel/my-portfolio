@@ -236,6 +236,7 @@ ul li {
   letter-spacing: 3%;
   border: 0;
   z-index: 1;
+  transition: all 0.5s ease-in-out;
 }
 
 a.card-btn:hover {
