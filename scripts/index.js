@@ -1,6 +1,9 @@
-const menuIcon = document.querySelector('.mobile-menu-icon');
+const menuIcon = document.querySelector('.mobile-menu-icon-svg');
 const mobileNav = document.querySelector('.mobile-nav');
 const closeBtn = document.querySelector('.close-btn');
+const contact = document.querySelector('.contact-link');
+const about = document.querySelector('.about-link');
+const heroSection = document.querySelector('.portfolio-link');
 
 function displayMenu() {
   mobileNav.classList.add('show');
@@ -13,3 +16,6 @@ function closeMenu() {
 
 menuIcon.addEventListener('click', displayMenu, false);
 closeBtn.addEventListener('click', closeMenu, false);
+contact.addEventListener('click', closeMenu, false);
+about.addEventListener('click', closeMenu, false);
+heroSection.addEventListener('click', closeMenu, false);

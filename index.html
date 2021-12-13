@@ -35,7 +35,7 @@
             <a href="#"> Atugonza Joel </a>
           </div>
           <div class="mobile-menu-icon" id="mobile-menu-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2.5rem" height="2.5rem" fill="none" viewBox="0 0 24 24" stroke="currentColor" role="img" aria-labelledby="title">
+            <svg class="mobile-menu-icon-svg" xmlns="http://www.w3.org/2000/svg" width="2.5rem" height="2.5rem" fill="none" viewBox="0 0 24 24" stroke="currentColor" role="img" aria-labelledby="title">
               <title id="menu-title">Mobile menu icon</title>
               <desc>menu icon toggle menu on mobile version</desc>
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -43,7 +43,7 @@
           </div>
           <div class="desktop-menu">
             <ul>
-              <li><a href="#home">Portfolio</a></li>
+              <li><a href="#hero-section">Portfolio</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
               <li>
@@ -61,69 +61,69 @@
           </div>
         </div>
       </nav>
-      <!-- Mobile Menu -->
-      <nav class="mobile-nav">
-        <div class="close-btn">
-          <svg xmlns="http://www.w3.org/2000/svg" class="close-btn" height="28" width="28" viewBox="0 0 512 512">
-            <title>Close</title>
-            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368" />
+    </header>
+    <!-- Mobile Menu -->
+    <nav class="mobile-nav">
+      <div class="close-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="close-btn" height="28" width="28" viewBox="0 0 512 512">
+          <title>Close</title>
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368" />
+        </svg>
+      </div>
+      <ul class="mobiNav">
+        <li><a href="#hero-section" class="portfolio-link">Portfolio</a>
+          <svg class="forward-chev" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512">
+            <title>Chevron Forward</title>
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144" />
+          </svg>
+        </li>
+        <li><a href="#about" class="about-link">About &nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <svg class="forward-chev" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512">
+            <title>Chevron Forward</title>
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144" />
+          </svg>
+        </li>
+        <li><a href="#contact" class="contact-link">Contact&nbsp;</a>
+          <svg class="forward-chev" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512">
+            <title>Chevron Forward</title>
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144" />
+          </svg>
+        </li>
+      </ul>
+      <div class="mobile-nav-bgs">
+        <div class="mob-bg-left">
+          <svg width="241" height="499" viewBox="0 0 241 499" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_f_73_99)">
+              <ellipse cx="53.8603" cy="249.271" rx="113" ry="213.5" transform="rotate(25.086 53.8603 249.271)" fill="#EDECFF" fill-opacity="0.4" />
+            </g>
+            <defs>
+              <filter id="filter0_f_73_99" x="-132.77" y="0.0158691" width="373.261" height="498.51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_73_99" />
+              </filter>
+            </defs>
           </svg>
         </div>
-        <ul>
-          <li><a href="#home">Portfolio</a>
-            <svg class="forward-chev" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512">
-              <title>Chevron Forward</title>
-              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144" />
-            </svg>
-          </li>
-          <li><a href="#about">About &nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <svg class="forward-chev" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512">
-              <title>Chevron Forward</title>
-              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144" />
-            </svg>
-          </li>
-          <li><a href="#contact">Contact&nbsp;</a>
-            <svg class="forward-chev" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512">
-              <title>Chevron Forward</title>
-              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144" />
-            </svg>
-          </li>
-        </ul>
-        <div class="mobile-nav-bgs">
-          <div class="mob-bg-left">
-            <svg width="241" height="499" viewBox="0 0 241 499" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g filter="url(#filter0_f_73_99)">
-                <ellipse cx="53.8603" cy="249.271" rx="113" ry="213.5" transform="rotate(25.086 53.8603 249.271)" fill="#EDECFF" fill-opacity="0.4" />
-              </g>
-              <defs>
-                <filter id="filter0_f_73_99" x="-132.77" y="0.0158691" width="373.261" height="498.51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                  <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_73_99" />
-                </filter>
-              </defs>
-            </svg>
-          </div>
-          <div class="mob-bg-right">
-            <svg width="204" height="366" viewBox="0 0 204 366" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g filter="url(#filter0_f_73_101)">
-                <ellipse cx="228.345" cy="215.785" rx="210.067" ry="122.03" transform="rotate(40.5188 228.345 215.785)" fill="#EDECFF" fill-opacity="0.9" />
-              </g>
-              <defs>
-                <filter id="filter0_f_73_101" x="0.015625" y="0.746094" width="456.658" height="430.077" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                  <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_73_101" />
-                </filter>
-              </defs>
-            </svg>
-
-          </div>
+        <div class="mob-bg-right">
+          <svg width="204" height="366" viewBox="0 0 204 366" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_f_73_101)">
+              <ellipse cx="228.345" cy="215.785" rx="210.067" ry="122.03" transform="rotate(40.5188 228.345 215.785)" fill="#EDECFF" fill-opacity="0.9" />
+            </g>
+            <defs>
+              <filter id="filter0_f_73_101" x="0.015625" y="0.746094" width="456.658" height="430.077" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_73_101" />
+              </filter>
+            </defs>
+          </svg>
 
         </div>
-      </nav>
-      <!-- End Mobile Menu -->
-    </header>
+
+      </div>
+    </nav>
+    <!-- End Mobile Menu -->
 
     <section id="hero-section">
       <div class="hero-section-container">
@@ -772,7 +772,7 @@
     </footer>
   </div>
 
-  <script src="/scripts/index.js"></script>
+  <script src="scripts/index.js"></script>
 </body>
 
 </html>

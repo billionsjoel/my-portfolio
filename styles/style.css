@@ -8,3 +8,9 @@ body {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -2.5rem;
+}
