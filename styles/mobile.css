@@ -1,3 +1,7 @@
+/* ----------------------
+  General mobile styles
+------------------------ */
+
 .white {
   color: #fff;
 }
@@ -133,12 +137,6 @@ a {
 .card-bg-img--3,
 .card-bg-img--4 {
   display: none;
-}
-
-ul li {
-  text-decoration: none;
-  list-style: none;
-  margin-left: -2.5rem;
 }
 
 .social-container ul {
