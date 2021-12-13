@@ -12,7 +12,7 @@ designed or worked on.
 - HTML and CSS.
 - No Frameworks
 - Git, Github and VsCode.
-
+ 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
