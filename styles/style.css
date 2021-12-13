@@ -6,4 +6,5 @@ body {
   box-sizing: border-box;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }

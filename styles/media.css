@@ -1,4 +1,11 @@
 @media only screen and (min-width: 992px) {
+  /* -------------------------
+    styling for event handling
+  -------------------------- */
+  .mobile-nav {
+    display: none;
+  }
+
   .container {
     max-width: 1156px;
     margin: auto;

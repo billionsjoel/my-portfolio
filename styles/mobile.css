@@ -1,3 +1,81 @@
+/* -------------------------
+  styling for event handling
+  -------------------------- */
+.mobile-nav {
+  display: none;
+  height: 100vh;
+  width: 475px;
+  z-index: 1;
+  margin-top: -6rem;
+  margin-left: auto;
+  position: fixed;
+  background-color: #191765;
+}
+
+.mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -2.5rem;
+}
+
+.mobile-nav ul li {
+  margin: 8px 0;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #edecff;
+}
+
+.mobile-nav ul li > svg {
+  margin: 0.2rem 10.5rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.forward-chev {
+  color: #acb7c3;
+  position: absolute;
+  margin-left: 1rem;
+}
+
+.close-btn {
+  color: #fff;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.mob-bg-left {
+  position: absolute;
+  left: 0;
+  top: 92px;
+  z-index: -1;
+}
+
+.mob-bg-right {
+  position: absolute;
+  right: 0;
+  top: 750.54px;
+  z-index: -1;
+}
+
+/* ----------------------
+  General mobile styles
+------------------------ */
+
 .white {
   color: #fff;
 }
@@ -133,12 +211,6 @@ a {
 .card-bg-img--3,
 .card-bg-img--4 {
   display: none;
-}
-
-ul li {
-  text-decoration: none;
-  list-style: none;
-  margin-left: -2.5rem;
 }
 
 .social-container ul {
