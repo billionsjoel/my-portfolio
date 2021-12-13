@@ -199,6 +199,7 @@ ul li {
 .card-img {
   text-align: center;
   transition: all 1s ease-in-out;
+  color: #fff;
 }
 
 .card-img:hover {
@@ -315,6 +316,7 @@ a.card-btn:disabled {
   width: 100%;
   height: auto;
   object-fit: cover;
+  color: #fff;
 }
 
 .about-text {
