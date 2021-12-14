@@ -14,3 +14,15 @@ ul li {
   list-style: none;
   margin-left: -2.5rem;
 }
+
+.hide {
+display: none;
+}
+
+.fixedElement {
+  background-color: #c0c0c0;
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  z-index: 100;
+}

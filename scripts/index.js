@@ -6,12 +6,12 @@ const about = document.querySelector('.about-link');
 const heroSection = document.querySelector('.portfolio-link');
 
 function displayMenu() {
-  mobileNav.classList.add('show');
-  mobileNav.classList.remove('hide');
+	mobileNav.classList.add('show');
+	mobileNav.classList.remove('hide');
 }
 function closeMenu() {
-  mobileNav.classList.remove('show');
-  mobileNav.classList.add('hide');
+	mobileNav.classList.remove('show');
+	mobileNav.classList.add('hide');
 }
 
 menuIcon.addEventListener('click', displayMenu, false);
