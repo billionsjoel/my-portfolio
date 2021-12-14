@@ -1,11 +1,10 @@
-let project = {
-	title: 'Multi-Post Stories',
-	description:
-		"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-	imageLink: 'about-me-img.png',
-	technologies: ['html', 'css', 'javascript'],
-	liveLink: 'https://live.com',
-	sourceLink: 'https://live.com',
+const project = {
+  title: 'Multi-Post Stories',
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+  imageLink: 'about-me-img.png',
+  technologies: ['html', 'css', 'javascript'],
+  liveLink: 'https://billionsjoel.github.io/',
+  sourceLink: 'https://github.com/billionsjoel/my-portfolio',
 };
 
 const grabBtnProject1 = document.querySelectorAll('.toggle-modal');
@@ -22,18 +21,18 @@ const techItem2 = document.querySelector('#item2');
 const techItem3 = document.querySelector('#item3');
 
 function showProject1() {
-	popUp.classList.remove('hide');
-	popUp.classList.add('show');
+  popUp.classList.remove('hide');
+  popUp.classList.add('show');
 }
 function closeProject() {
-	popUp.classList.add('hide');
+  popUp.classList.add('hide');
 }
 
 grabBtnProject1.forEach((e) => {
-	e.addEventListener('click', function (event) {
-		event.preventDefault();
-	});
-	e.addEventListener('click', showProject1, false);
+  e.addEventListener('click', (event) => {
+    event.preventDefault();
+  });
+  e.addEventListener('click', showProject1, false);
 });
 close.addEventListener('click', closeProject, false);
 

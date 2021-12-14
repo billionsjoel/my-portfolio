@@ -78,6 +78,76 @@
     top: 750.54px;
     z-index: -1;
   }
+
+  /* -------------------------
+      stylinng for mobile modal
+    -------------------------- */
+  .modal-container {
+    max-width: 350px;
+    position: absolute;
+    margin: 5% auto;
+  }
+
+  .project1-popUp {
+    width: 350px;
+    height: 700px;
+    position: absolute;
+    top: 100%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background: #191765;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+  }
+
+  .project-close-btn {
+    display: flex;
+    padding: 2rem;
+    justify-content: flex-end;
+  }
+
+  .pop-close-btn {
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .model-content {
+    margin-top: -4rem;
+  }
+
+  .model-image {
+    text-align: center;
+    width: 279px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .model-text {
+    color: #edecff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 279px;
+  }
+
+  .model-skills ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .model-btns {
+    margin-top: -2rem;
+  }
+
+  .model-title {
+    padding: 0 0 0 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+  }
 }
 
 @media only screen and (min-width: 992px) {
