@@ -1,6 +1,6 @@
 const project = {
   title: 'Multi-Post Stories',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+  description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
   imageLink: 'about-me-img.png',
   technologies: ['html', 'css', 'javascript'],
   liveLink: 'https://billionsjoel.github.io/',
@@ -43,6 +43,9 @@ description.innerHTML = project.description;
 image.innerHTML = imgHtml;
 liveLink.href = project.liveLink;
 sourceLink.href = project.sourceLink;
-techItem1.innerHTML = project.technologies[0];
-techItem2.innerHTML = project.technologies[1];
-techItem3.innerHTML = project.technologies[2];
+
+const [html, css, javascript] = project.technologies;
+
+techItem1.innerHTML = html;
+techItem2.innerHTML = css;
+techItem3.innerHTML = javascript;
