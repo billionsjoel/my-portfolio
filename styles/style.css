@@ -27,25 +27,6 @@ ul li {
   z-index: 100;
 }
 
-ul li {
-  text-decoration: none;
-  list-style: none;
-  margin-left: -2.5rem;
-}
-
-.hide {
-display: none;
-}
-
-.fixedElement {
-  background-color: #c0c0c0;
-  position: fixed;
-  top: 50%;
-  width: 100%;
-  z-index: 100;
-}
-
-
 .field {
   margin-bottom: 0.75rem;
 }
