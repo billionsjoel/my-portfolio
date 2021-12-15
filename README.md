@@ -5,7 +5,7 @@
 > A project that shows my portfolio, technologies and links to the projects i have
 designed or worked on.
 
-![screenshot](./full-app-screenshot.png)
+![screenshot](./images/modal-screenshot.png)
 
 ## Built With
 
