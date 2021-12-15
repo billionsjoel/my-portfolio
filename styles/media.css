@@ -148,6 +148,11 @@
     line-height: 28px;
     color: #fff;
   }
+
+  /* style form span error message */
+  .formMsg {
+    margin-left: 2.5rem !important;
+  }
 }
 
 @media only screen and (min-width: 992px) {

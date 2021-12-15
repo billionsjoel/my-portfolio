@@ -716,10 +716,21 @@
         </div>
         <div class="contact-form">
           <form action="https://formspree.io/f/xayvwpvl" method="POST" class="form" name="myPortfolio">
-            <input type="text" name="userName" id="userName" class="input" placeholder="user name" maxlength="30" required />
-            <input type="email" name="userEmail" id="userEmail" class="input" placeholder="example@gmail.com" required />
-            <textarea placeholder="Enter text here" name="textArea" id="teatArea" class="input text-area" cols="30" rows="10" maxlength="500" required></textarea>
-            <button type="submit" class="contact-btn">Send</button>
+            <div class="field">
+              <input type="text" name="userName" id="userName" class="input" placeholder="user name" maxlength="30" />
+              <small class="formMsg"></small>
+            </div>
+            <div class="field">
+              <input type="email" name="userEmail" id="userEmail" class="input" placeholder="example@gmail.com" />
+              <small class="formMsg"></small>
+            </div>
+            <div class="field">
+              <textarea placeholder="Enter text here" name="message" id="message" class="input text-area" cols="30" rows="10" maxlength="500"></textarea>
+              <small class="formMsg"></small>
+            </div>
+            <div class="field">
+              <button type="submit" class="contact-btn">Send</button>
+            </div>
           </form>
         </div>
 
@@ -852,6 +863,7 @@
   <!-- End Model pop up -->
   <script src="scripts/index.js"></script>
   <script src="scripts/popup.js"></script>
+  <script src="scripts/validate.js"></script>
 </body>
 
 </html>
