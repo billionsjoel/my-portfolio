@@ -7,26 +7,26 @@ const userMessage = formStorage.elements.message;
 /* ======= save the date in the js object ====== */
 
 formStorage.addEventListener('change', () => {
-  const formObj = {};
+	const formObj = {};
 
-  if (userName.value.trim() !== '') {
-    formObj.nameValue = userName.value.trim();
-  }
+	if (userName.value.trim() !== '') {
+		formObj.nameValue = userName.value.trim();
+	}
 
-  if (userEmail.value.trim() !== '') {
-    formObj.email = userEmail.value.trim();
-  }
+	if (userEmail.value.trim() !== '') {
+		formObj.email = userEmail.value.trim();
+	}
 
-  if (userMessage.value.trim() !== '') {
-    formObj.message = userMessage.value.trim();
-  }
+	if (userMessage.value.trim() !== '') {
+		formObj.message = userMessage.value.trim();
+	}
 
-  localStorage.setItem('formData', JSON.stringify(formObj));
+	localStorage.setItem('formData', JSON.stringify(formObj));
 });
 
 /* ======= loading the form data from the localStorage ====== */
 
-const localData = localStorage.getItem('formData');
+const localData = localStorage.getItem('formObj');
 const { nameValue, email, message } = localData ? JSON.parse(localData) : {};
 
 userEmail.value = email || '';
